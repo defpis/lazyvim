@@ -27,7 +27,7 @@ function __ToogleFocus()
   end
 end
 
-map("n", "<tab>", "<CMD>lua __ToogleFocus()<CR>")
+map("n", "<leader>t", "<CMD>lua __ToogleFocus()<CR>")
 
 map("n", "∆", ":move .+1<CR>")
 map("n", "˚", ":move .-2<CR>")
